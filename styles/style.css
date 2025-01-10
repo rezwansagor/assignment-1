@@ -1,4 +1,53 @@
 .fira-sans-regular {
     font-family: "Fira Sans", serif;
     font-style: normal;
-  }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(245, 245, 245);
+}
+
+.nav-bar {
+    width: 1920px;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bd2o {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0%;
+    margin: 37px auto 37px 192px;
+}
+
+.nav-btn {
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 106, 80);
+    border-radius: 9px;
+    padding: 18px 36px 18px 36px;
+    background-color: transparent;
+    margin: 28px 0px 28px ;
+
+}
+
+.nav-btn .sign-in-btn {
+    color: rgb(0, 106, 80);
+    font-family: Fira Sans;
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0%;
+    background-color: transparent;
+    border: none;
+
+}
