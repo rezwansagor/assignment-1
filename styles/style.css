@@ -58,8 +58,65 @@ body {
 #banner {
     width: 1536px;
     height: 672px;
-    border: 1px solid yellow;
     margin: 24px 192px 0px;
     border-radius: 24px;
     background: rgb(198, 228, 214);
+    display: flex;
+}
+
+#banner .left-col {
+    width: 746px;
+    height: 391px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 140px 76px 140px 70px;
+}
+
+.left-col-subtitle {
+    color: rgba(14, 14, 14, 0.5);
+    font-family: Fira Sans;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.left-col-title {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 67px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.left-col-btn {
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 20px 40px 20px 40px;
+    border-radius: 8px;
+    border: none;
+    background: rgb(0, 106, 80);
+}
+.right-col {
+    width: 568px;
+    height: 480px;
+    margin: 96px 72px 96px auto;
+}
+.inner-img {
+    display: flex;
+    justify-content: center;
+    
+}
+.inner-img img {
+    height: 480px;
 }
