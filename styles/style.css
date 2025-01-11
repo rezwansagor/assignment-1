@@ -107,16 +107,120 @@ body {
     border: none;
     background: rgb(0, 106, 80);
 }
+
 .right-col {
     width: 568px;
     height: 480px;
     margin: 96px 72px 96px auto;
 }
+
 .inner-img {
     display: flex;
     justify-content: center;
-    
+
 }
+
 .inner-img img {
     height: 480px;
+}
+
+/* main section started  */
+#vision-of-future {
+    width: 1536px;
+    height: 918px;
+    margin: 80px auto;
+    /* background-color: gray; */
+}
+
+.upper-sec {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start
+}
+
+.upper-sec-title {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 0px auto 28px 0px;
+}
+
+.upper-sec-description {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 32px;
+}
+
+.middle-sec {
+    display: flex;
+    gap: 28px;
+}
+
+.inner-img3 {
+    margin: 39px 339px 30px 39px;
+}
+
+.card-title {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 0px 38px 14px 38px;
+}
+
+.card-description {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 0px 38px 28px 38px;
+}
+
+.card-btn {
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    border-radius: 9px;
+    background: rgb(84, 144, 245);
+    padding: 13px 24px 13px 24px;
+    border: none;
+    margin: 0px 307px 38px 38px;
+
+}
+
+.card1 {
+    box-sizing: border-box;
+    border-radius: 20px;
+    background: rgba(84, 144, 245, 0.2);
+
+}
+.card2 {
+    box-sizing: border-box;
+    border-radius: 20px;
+    background: rgb(198, 228, 214);
+}
+.card3 {
+    box-sizing: border-box;
+    border-radius: 20px;
+    background: rgb(247, 235, 207);
 }
