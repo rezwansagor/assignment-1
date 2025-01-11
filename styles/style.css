@@ -613,14 +613,20 @@ input {
     background: rgb(0, 106, 80);
     margin: 0px 677px;
 }
+
 /* newsletter section starte */
 #newsletter {
     width: 1536px;
-    height: auto;
+    height: 474px;
     margin: 0px auto 80px;
     border-radius: 24px;
     background: rgb(198, 228, 214);
     /* border: 1px solid green; */
+}
+
+.newsletter-container {
+    margin-bottom: 96px;
+    
 }
 
 .newsletter-info {
@@ -629,6 +635,7 @@ input {
     justify-content: flex-start;
     align-items: center;
     gap: 19px;
+    margin: 96px 120px 28px;
 }
 
 .subs-heading {
@@ -639,9 +646,12 @@ input {
     line-height: 57px;
     letter-spacing: 0%;
     text-align: center;
+    margin: 96px 76px 19px;
 }
 
 .subs-description {
+    width: 746px;
+    height: 57px;
     color: rgba(14, 14, 14, 0.7);
     font-family: Fira Sans;
     font-size: 19px;
@@ -649,6 +659,7 @@ input {
     line-height: 28px;
     letter-spacing: 0%;
     text-align: center;
+    margin: auto 76px auto;
 }
 
 .input-bar2 {
@@ -684,4 +695,35 @@ input {
     letter-spacing: 0%;
     text-align: left;
     border: none;
+}
+
+.subs-btn {
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    border-radius: 0px 9px 9px 0px;
+    background: rgb(0, 106, 80);
+    padding: 20px 40px 20px 40px;
+    border: none;
+}
+
+.subs-form {
+    display: flex;
+    justify-content: center;
+    margin: 28px auto 25px;
+}
+
+.spam-promise {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 0px 76px 0px;
 }
