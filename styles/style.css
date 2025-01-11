@@ -235,16 +235,22 @@ body {
     box-sizing: border-box;
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 19px;
-    background: rgb(255, 255, 255), url(../assets/quote-bg.png);
+    background: rgb(255, 255, 255);
     margin: 38px 0px 0px 0px;
 }
 
 .lower-sec-containers {
     margin: 57px 25px;
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+   
+    
 }
 
 .lower-sec-1st-container {
     margin: 57px 14px 14px;
+    
+
 }
 
 .the-qoute {
