@@ -276,10 +276,10 @@ body {
     width: 489px;
     height: 367px;
     border-radius: 28px;
-    margin: 57px 57px 57px 38px;
+    margin: 57px 57px 57px 57px;
  }
  .news-col-2 .left-box-img1 img {
-    width: 489px;
+    /* width: 489px; */
     height: 367px;
     border-radius: 28px;
     
@@ -307,7 +307,7 @@ body {
     margin: 67px 57px 67px auto;
 }
 .news-col-2 .right-box {
-    margin: 67px 57px 67px 57px;
+    margin: 67px auto 67px 57px;
 }
 
 
@@ -374,4 +374,12 @@ body {
 }
 .news-col-2 {
     margin-bottom: 28px;
+}
+
+/* donate section started */
+#donate {
+    width: 1536px;
+    height: auto;
+    margin: 80px auto;
+    background-color: brown;
 }
