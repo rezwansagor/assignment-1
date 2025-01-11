@@ -227,6 +227,66 @@ body {
     background: rgb(247, 235, 207);
 }
 
+.lower-sec {
+
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 19px;
+    background: rgb(255, 255, 255), url(../assets/quote-bg.png);
+    margin: 38px 0px 0px 0px;
+}
+
+.lower-sec-containers {
+    margin: 57px 25px;
+}
+
+.lower-sec-1st-container {
+    margin: 57px 14px 14px;
+}
+
+.the-qoute {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+    /* margin: 57px 14px 14px; */
+}
+
+/* .lower-sec-2nd-container {
+    margin: 57px 14px 14px;
+} */
+
+.q-author {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.a-position {
+    color: rgba(14, 14, 14, 0.6);
+    font-family: Fira Sans;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 4px 0px 0px 0px;
+}
+
+.lower-sec-2nd-container {
+    margin: 0px 14px 57px;
+}
+
 /* recent news section started */
 
 #recent-news {
@@ -552,4 +612,76 @@ input {
     border-radius: 9px;
     background: rgb(0, 106, 80);
     margin: 0px 677px;
+}
+/* newsletter section starte */
+#newsletter {
+    width: 1536px;
+    height: auto;
+    margin: 0px auto 80px;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    /* border: 1px solid green; */
+}
+
+.newsletter-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 19px;
+}
+
+.subs-heading {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.subs-description {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.input-bar2 {
+    width: 720px;
+    height: 66px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 14px;
+    border-radius: 9px 0px 0px 9px;
+    background: rgb(255, 255, 255);
+
+}
+
+.entry2 {
+    position: relative;
+    width: 188px;
+    height: 21px;
+    text-align: center;
+    border: none;
+    margin: 14px 0px;
+
+}
+
+.input2 {
+    position: absolute;
+    width: 100%;
+    color: rgba(14, 14, 14, 0.3);
+    font-family: Fira Sans;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: left;
+    border: none;
 }
