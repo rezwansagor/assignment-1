@@ -53,7 +53,6 @@ body {
     border: none;
 
 }
-
 /* banner section started */
 #banner {
     width: 1536px;
@@ -106,6 +105,12 @@ body {
     border-radius: 8px;
     border: none;
     background: rgb(0, 106, 80);
+    cursor: pointer;
+}
+.left-col-btn:hover {
+    color: rgb(0, 106, 80);
+    background-color: white;
+    border: 1px solid green;
 }
 
 .right-col {
@@ -205,7 +210,13 @@ body {
     padding: 13px 24px 13px 24px;
     border: none;
     margin: 0px 307px 38px 38px;
+    cursor: pointer;
 
+}
+.card-btn:hover {
+    color: rgb(84, 144, 245);
+    background-color: rgb(255, 255, 255);
+    border: 1px solid green;
 }
 
 .card1 {
@@ -236,15 +247,16 @@ body {
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 19px;
     background: rgb(255, 255, 255);
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: 40px 35px;
+
     margin: 38px 0px 0px 0px;
 }
 
 .lower-sec-containers {
     margin: 57px 25px;
-    background-image: url(../assets/quote-bg.png);
-    background-repeat: no-repeat;
    
-    
 }
 
 .lower-sec-1st-container {
@@ -437,8 +449,13 @@ body {
     background: rgb(0, 106, 80);
     border: none;
     margin: 38px 726px 0px 0px;
+    cursor: pointer;
 }
-
+.read-more-btn:hover {
+    color: rgb(0, 106, 80);
+    background-color: rgb(255, 255, 255);
+    border: 1px solid green;
+}
 .news-col-1 {
     margin-bottom: 28px;
 }
@@ -484,7 +501,7 @@ body {
     margin: 0px 105px;
 }
 
-.taka-box-container {
+.btn-box-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -492,39 +509,40 @@ body {
     margin: 38px auto;
 }
 
-.taka-box-1 {
+/* .taka-box-1 {
     padding: 48px;
     box-sizing: border-box;
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 19px;
     background: rgb(255, 255, 255);
-}
+} */
 
-.taka-box-2 {
+/* .taka-box-2 {
     padding: 48px;
     box-sizing: border-box;
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 19px;
     background: rgb(255, 255, 255);
-}
+} */
 
-.taka-box-3 {
+/* .taka-box-3 {
     padding: 48px;
     box-sizing: border-box;
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 19px;
     background: rgb(198, 228, 214);
-}
+} */
 
-.taka-box-4 {
+/* .taka-box-4 {
     padding: 48px;
     box-sizing: border-box;
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 19px;
     background: rgb(255, 255, 255);
-}
+} */
 
-.first-taka {
+.taka-btn {
+    background: rgb(255, 255, 255);
     color: rgba(14, 14, 14, 0.8);
     font-family: Fira Sans;
     font-size: 48px;
@@ -532,39 +550,24 @@ body {
     line-height: 57px;
     letter-spacing: 0%;
     text-align: center;
+    border: none;
+    /* background-color: transparent; */
+    padding: 48px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 19px;
+    background: rgb(255, 255, 255);
+    cursor: pointer;
 
 }
-
-.second-taka {
-    color: rgba(14, 14, 14, 0.8);
-    font-family: Fira Sans;
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 57px;
-    letter-spacing: 0%;
-    text-align: center;
-
+.taka-btn:hover {
+    
+    background-color: rgb(198, 228, 214);
+    
 }
 
-.third-taka {
-    color: rgba(14, 14, 14, 0.8);
-    font-family: Fira Sans;
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 57px;
-    letter-spacing: 0%;
-    text-align: center;
-
-}
-
-.fourth-taka {
-    color: rgba(14, 14, 14, 0.8);
-    font-family: Fira Sans;
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 57px;
-    letter-spacing: 0%;
-    text-align: center;
+.taka-btn:focus {
+    background-color: rgb(198, 228, 214);
 
 }
 
@@ -618,7 +621,14 @@ input {
     border-radius: 9px;
     background: rgb(0, 106, 80);
     margin: 0px 677px;
+    cursor: pointer;
 }
+.inner-btn:hover  {
+    color: rgb(0, 106, 80);
+    background-color: rgb(255, 255, 255) ;
+    border: 1px solid rgb(0, 106, 80) ;
+}
+
 
 /* newsletter section starte */
 #newsletter {
@@ -715,6 +725,13 @@ input {
     background: rgb(0, 106, 80);
     padding: 20px 40px 20px 40px;
     border: none;
+    cursor: pointer;
+}
+.subs-btn:hover {
+    color: rgb(0, 106, 80);
+    background-color: rgb(255, 255, 255);
+    border: 1px solid green;
+
 }
 
 .subs-form {
